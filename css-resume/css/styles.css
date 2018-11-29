@@ -1,0 +1,47 @@
+/* COLOR PALLETE
+#E8E6DC -  Platinum
+#242423 - Raisin Black
+#84ACCE - Light Cobalt Blue
+#FFFFFF - White
+
+*/
+
+
+/* GLOBAL STYLES*/
+
+body{
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #84ACCE;
+    cursor: pointer;
+}
+
+/* HEADER AND FOOTER*/
+
+header, footer{
+    background: #242423;
+    color: white;
+}
+
+header h1, header h2{
+    
+}
+
+/* WORK EXPERIENCE*/
+
+.work{
+    background: #E8E6DC;
+}
+
+/* EDUCATION*/
+
+.education{
+    background: #84ACCE;
+}

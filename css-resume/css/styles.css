@@ -9,8 +9,17 @@
 
 /* GLOBAL STYLES*/
 
+html{
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
 body{
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
 }
 
 a {
@@ -30,6 +39,26 @@ h1{
 
 h2{
     font-size: 30px;
+    margin-top:0;
+}
+
+.wrap{
+    max-width: 950px;   
+    margin: 0 auto;
+    padding: 30px;
+    overflow: auto;
+}
+
+.col-narrow{
+    width: 30%;
+    float: left; 
+}
+
+.col-wide{
+    width: 70%;
+    float: left;
+    padding-left: 20px;
+    min-height: 179px;
 }
 /* HEADER AND FOOTER*/
 
@@ -38,15 +67,40 @@ header, footer{
     color: white;
 }
 
-header h1, header h2{
-    
+/* header */
+.profileImg{
+    border-radius: 50%;   
 }
+
+.verticalAlign{
+    padding-top:10%;
+}
+
+header h1, header h2{
+    margin:0;
+}
+
+/* footer */
+footer{
+    text-align: center;
+}
+
+.info a{
+    padding: 10px;
+    display: inline-block;
+}
+
+/* BODY */
+
+
 
 /* WORK EXPERIENCE*/
 
 .work{
     background: #E8E6DC;
 }
+
+
 
 /* EDUCATION*/
 

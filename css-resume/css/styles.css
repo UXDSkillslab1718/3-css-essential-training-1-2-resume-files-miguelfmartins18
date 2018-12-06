@@ -49,7 +49,7 @@ h3{
 .wrap{
     max-width: 950px;   
     margin: 0 auto;
-    padding: 30px;
+    padding: 60px 30px;
     overflow: auto;
 }
 
@@ -68,6 +68,14 @@ h3{
 .uppercase{
     text-transform: uppercase;
 }
+
+.btn{
+    text-decoration: none;
+    background: white;
+    color: #242423; 
+    padding: 10px;
+    display: inline-block;
+}
 /* HEADER AND FOOTER*/
 
 header, footer{
@@ -82,6 +90,17 @@ header, footer{
 
 .verticalAlign{
     padding-top:10%;
+}
+
+.download{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+header{
+    padding-top:50px;
+    position: relative;
 }
 
 header h1, header h2{
@@ -100,8 +119,23 @@ footer{
 
 /* BODY */
 
+/* Navigation */
 
+nav{
+    text-align: center;
+    background: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
 
+nav a{
+    display: inline-block;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #242423;
+}
 /* WORK EXPERIENCE*/
 
 .work{

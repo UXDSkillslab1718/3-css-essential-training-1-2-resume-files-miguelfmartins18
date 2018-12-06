@@ -42,6 +42,10 @@ h2{
     margin-top:0;
 }
 
+h3{
+    margin: 0;
+}
+
 .wrap{
     max-width: 950px;   
     margin: 0 auto;
@@ -58,7 +62,11 @@ h2{
     width: 70%;
     float: left;
     padding-left: 20px;
-    min-height: 179px;
+    min-height: 179px;    
+}
+
+.uppercase{
+    text-transform: uppercase;
 }
 /* HEADER AND FOOTER*/
 
@@ -100,10 +108,22 @@ footer{
     background: #E8E6DC;
 }
 
+h3 ~ p{
+    margin: 0;
+}
 
-
+.job-description{
+    margin-bottom: 25px;
+}
+.job-description p:first-of-type{
+    margin-top: 0;
+}
 /* EDUCATION*/
 
 .education{
     background: #84ACCE;
+}
+
+p + h3{
+    margin-top:30px;
 }

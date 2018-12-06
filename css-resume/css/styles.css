@@ -116,6 +116,13 @@ footer{
     padding: 10px;
     display: inline-block;
 }
+.fa-at{
+    font-size: 20px;
+}
+
+.fa-linkedin{
+    font-size: 20px;
+}
 
 /* BODY */
 
@@ -155,7 +162,10 @@ h3 ~ p{
 /* EDUCATION*/
 
 .education{
-    background: #84ACCE;
+    background: linear-gradient(rgba(35, 35, 36, 0.8), rgba(35, 35, 36, 0.5)),
+    url(../images/hilthart-pedersen-602164-unsplash.jpg) no-repeat fixed;
+    background-size: cover;
+    color: white;
 }
 
 p + h3{
